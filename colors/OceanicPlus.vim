@@ -119,7 +119,7 @@ endfunction
 
   " Standard syntax highlighting
   call s:hi('Boolean',                            s:orange, '',       '',          '')
-  call s:hi('Character',                          s:red,    '',       '',          '')
+  call s:hi('Character',                          s:green,    '',       '',          '')
   call s:hi('Comment',                            s:base03, '',       s:italic,    '')
   call s:hi('Conditional',                        s:purple, '',       '',          '')
   call s:hi('Constant',                           s:orange, '',       '',          '')
