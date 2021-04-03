@@ -130,7 +130,7 @@ endfunction
 
   call s:hi('Identifier',                         s:blue,   '',       '',          '')
   call s:hi('Include',                            s:blue,   '',       '',          '')
-  call s:hi('Keyword',                            s:purple, '',       '',          '')
+  call s:hi('Keyword',                            s:blue, '',       '',          '')
 
   call s:hi('Label',                              s:yellow, '',       '',          '')
   call s:hi('Number',                             s:orange, '',       '',          '')
