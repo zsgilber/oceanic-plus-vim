@@ -136,7 +136,7 @@ endfunction
   call s:hi('Number',                             s:orange, '',       '',          '')
   call s:hi('Operator',                           s:base05, '',       '',          '')
   call s:hi('PreProc',                            s:yellow, '',       '',          '')
-  call s:hi('Repeat',                             s:yellow, '',       '',          '')
+  call s:hi('Repeat',                             s:purple, '',       '',          '')
   call s:hi('Special',                            s:light_orange,   '',       '',          '')
   call s:hi('SpecialChar',                        s:brown,  '',       '',          '')
   call s:hi('Statement',                          s:purple,    '',       '',          '')
