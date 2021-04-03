@@ -1,6 +1,6 @@
 " ===============================================================
-" OceanicNext
-" Author: Mike Hartington
+" OceanicPlus
+" Author: Zach Gilbert
 " ===============================================================
 
 " {{{ Setup
@@ -9,7 +9,7 @@
   if exists("syntax_on")
     syntax reset
   endif
-  let g:colors_name="OceanicNext"
+  let g:colors_name="OceanicPlus"
 " }}}
 " {{{ Italics
   let g:oceanic_next_terminal_italic = get(g:, 'oceanic_next_terminal_italic', 0)
@@ -44,6 +44,7 @@
   let s:brown  = ['#ab7967', '137']
   let s:white  = ['#ffffff', '15']
   let s:none   = ['NONE',    'NONE']
+  let s:light_orange   = ['#fbc2a2',    '203']
 
 " }}}
 " {{{ Highlight function
@@ -127,7 +128,7 @@ endfunction
   call s:hi('Float',                              s:orange, '',       '',          '')
   call s:hi('Function',                           s:blue,   '',       '',          '')
 
-  call s:hi('Identifier',                         s:cyan,   '',       '',          '')
+  call s:hi('Identifier',                         s:light_orange,   '',       '',          '')
   call s:hi('Include',                            s:blue,   '',       '',          '')
   call s:hi('Keyword',                            s:purple, '',       '',          '')
 
