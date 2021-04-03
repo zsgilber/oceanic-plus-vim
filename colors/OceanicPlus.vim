@@ -44,7 +44,7 @@
   let s:brown  = ['#ab7967', '137']
   let s:white  = ['#ffffff', '15']
   let s:none   = ['NONE',    'NONE']
-  let s:light_orange   = ['#fbc2a2',    '203']
+  let s:light_orange   = ['#fbc2a2',    'NONE']
 
 " }}}
 " {{{ Highlight function
@@ -145,7 +145,7 @@ endfunction
   call s:hi('Structure',                          s:purple, '',       '',          '')
   call s:hi('Tag',                                s:yellow, '',       '',          '')
   call s:hi('Todo',                               s:yellow, s:base01, '',          '')
-  call s:hi('Type',                               s:yellow, '',       '',          '')
+  call s:hi('Type',                               s:purple, '',       '',          '')
   call s:hi('Typedef',                            s:yellow, '',       '',          '')
 
   " LSP
