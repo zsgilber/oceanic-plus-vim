@@ -128,7 +128,7 @@ endfunction
   call s:hi('Float',                              s:orange, '',       '',          '')
   call s:hi('Function',                           s:blue,   '',       '',          '')
 
-  call s:hi('Identifier',                         s:red,   '',       '',          '')
+  call s:hi('Identifier',                         s:blue,   '',       '',          '')
   call s:hi('Include',                            s:blue,   '',       '',          '')
   call s:hi('Keyword',                            s:purple, '',       '',          '')
 
@@ -137,7 +137,7 @@ endfunction
   call s:hi('Operator',                           s:base05, '',       '',          '')
   call s:hi('PreProc',                            s:yellow, '',       '',          '')
   call s:hi('Repeat',                             s:yellow, '',       '',          '')
-  call s:hi('Special',                            s:cyan,   '',       '',          '')
+  call s:hi('Special',                            s:light_orange,   '',       '',          '')
   call s:hi('SpecialChar',                        s:brown,  '',       '',          '')
   call s:hi('Statement',                          s:purple,    '',       '',          '')
   call s:hi('StorageClass',                       s:yellow, '',       '',          '')
