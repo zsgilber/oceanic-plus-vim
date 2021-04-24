@@ -123,7 +123,7 @@ endfunction
   call s:hi('Comment',                            s:base03, '',       s:italic,    '')
   call s:hi('Conditional',                        s:purple, '',       '',          '')
   call s:hi('Constant',                           s:orange, '',       '',          '')
-  call s:hi('Define',                             s:purple, '',       '',          '')
+  call s:hi('Define',                             s:blue, '',       '',          '')
   call s:hi('Delimiter',                          s:brown,  '',       '',          '')
   call s:hi('Float',                              s:orange, '',       '',          '')
   call s:hi('Function',                           s:blue,   '',       '',          '')
